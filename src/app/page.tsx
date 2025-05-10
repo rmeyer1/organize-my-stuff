@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center p-8 gap-8 bg-gray-50">
       <header className="mb-8 text-center">
-        <h1 className="text-4xl font-bold mb-2">Create Your Custom Gridfinity Storage!</h1>
-        <p className="text-lg text-gray-600">Design, customize, and order your perfect Gridfinity setup for the Bambu A1 Mini.</p>
+        <h1 className="text-4xl font-bold mb-2">Create Your Custom Storage!</h1>
+        <p className="text-lg text-gray-600">Design, customize, and order your perfect Gridfinity setup.</p>
       </header>
       <div className="flex flex-col sm:flex-row gap-4">
         <Link href="/canvas" className="rounded-lg bg-blue-600 text-white px-6 py-3 font-semibold text-lg shadow hover:bg-blue-700 transition">Start Designing</Link>
